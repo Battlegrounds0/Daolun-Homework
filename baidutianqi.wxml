@@ -1,0 +1,23 @@
+<!--pages/badutianqi/baidutianqi.wxml-->
+<view id="panel" class="flex-column">
+  <view class="flex-cell flex-row">
+    <text class="flex-cell flex-row">currentCity</text>
+     <text class="flex-cell flex-row">{{currentCity}}</text>
+  </view>
+  <view class="flex-row flex-cell">
+    <text class="flex-cell flex-row">temperature</text>
+    <text class="flex-cell flex-row">{{temperature}}</text>
+  </view>
+  <view class="flex-row flex-cell">
+    <text class="flex-cell flex-row">pm2.5</text>
+    <text class="flex-cell flex-row">{{pm25}}</text>
+  </view>
+  <view class="flex-row flex-cell">
+    <text class="flex-cell flex-row">weather</text>
+    <text class="flex-cell flex-row">{{weather}}</text>
+  </view>
+  <view class="flex-row flex-cell">
+    <text class="flex-cell flex-row">wind</text>
+    <text class="flex-cell flex-row">{{wind}}</text>
+  </view>
+</view>

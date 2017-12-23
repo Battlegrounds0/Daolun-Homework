@@ -1,0 +1,23 @@
+<!--pages/chuanshenmo/chuanshenmo.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">衣服</text>
+    <text class="page__desc">图片</text>
+  </view>
+<view class="view">
+<view  wx:if="{{temp>25}}">{{text4}}</view>
+<view  wx:if="{{temp<=25&&temp>20}}">{{text3}}</view>
+<view  wx:if="{{temp<=20&&temp>10}}">{{text2}}</view>
+<view  wx:if="{{temp<=10}}">{{text1}}</view>
+</view>
+
+  
+      <view class="section__ctn">
+        <image wx:if="{{temp>25}}" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="http://img1.tbcdn.cn/tfscom/i4/TB1XdQOMXXXXXX7XVXXXXXXXXXX_!!0-item_pic.jpg"></image>
+      <image wx:if="{{temp<=25&&temp>20}}" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="http://img14.360buyimg.com/n8/jfs/t3052/155/5191052809/208265/adaf96b5/58666076N01796e92.jpg"></image>
+      <image wx:if="{{temp<=20&&temp>10}}" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="https://s.yimg.com/wb/images/C1156B57954A9B076FB88F350CE85B8B4309FD1C"></image>
+      <image wx:if="{{temp<=10}}" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="http://img10.360buyimg.com/n1/jfs/t9220/202/1871982530/359012/7b27d2de/59c077e2N01448fc7.jpg"></image>
+      </view>
+
+    </view>
+ 
