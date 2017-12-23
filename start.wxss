@@ -1,0 +1,22 @@
+/* start.wxss */
+
+.btn1{
+  background-color:#FFDEAD;
+  width: 80%;
+  top: 3%
+}
+
+.radio-group{
+  background-color:#EEE8AA;
+   width: 80%;
+   left: 9%;
+  top: 20%;
+  position: absolute
+}
+
+.btn2{
+  background-color:#FFDEAD;
+  width: 80%;
+  top: 30%
+}
+
